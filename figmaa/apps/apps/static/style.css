@@ -1,61 +1,3 @@
-# Ex08 Event Registration Web Application
-# Date:17-12-25
-# AIM:
-To design, develop and deploy a web application for event registration.
-
-# DESIGN STEPS:
-## Step 1:
-Create a new frame.
-
-## Step 2:
-Select any one preset size of your choice.
-
-## Step 3:
-Select the shapes you need.
-
-## Step 4:
-Import images as needed.
-
-## Step 5:
-Create pages based on your need and link them.
-
-## Step 6:
-Validate the HTML and CSS code.
-
-## Step 6:
-Publish the website in the given URL.
-
-# DESIGN TOOL:
-Figma
-
-# CODE:
-index.html
-```
-{% load static %}
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="iphone-SE">
-      <img class="web-photo-editor" src="img/web-photo-editor-2-1.png" />
-      <div class="text-wrapper">HIP-HOP</div>
-      <img class="rectangle" src="img/rectangle.png" />
-      <div class="div">presents</div>
-      <div class="text-wrapper-2">culture and development</div>
-      <p class="HIP-HOP-WORKSHOPS-AT">HIP HOP&nbsp;&nbsp;WORKSHOPS AT DOWNTOWN <br />BY TOP HIPHOP ARTISTS</p>
-      <div class="rectangle-2"></div>
-      <div class="text-wrapper-3">REGISTER NOW</div>
-      <div class="text-wrapper-4">FREE</div>
-    </div>
-  </body>
-</html>
-```
-style.css
-```
 .iphone-SE {
   background-color: #ffffff;
   overflow: hidden;
@@ -187,14 +129,3 @@ style.css
   letter-spacing: 0;
   line-height: normal;
 }
-```
-# OUTPUT:
-![alt text](output1.png)
-![alt text](output2.png)
-![alt text](output3.png)
-![alt text](output4.png)
-![alt text](output5.png)
-
-
-# RESULT:
-The program to design, develop and deploy a web application for event registration is completed successfully.
